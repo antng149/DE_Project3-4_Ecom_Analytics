@@ -1,12 +1,13 @@
 # Dự Án DEC – Phân Tích Thương Mại Điện Tử (PostgreSQL + Python)
 
+```markdown
 DE_UniGap_Project3/
 │
 ├── README.md
 ├── README_ENG.md
 ├── README_VN.md
 ├── performance.md
-├── reports.md
+├── requirement3_reports.md
 │
 ├── docker/
 │   ├── docker-compose.yml
@@ -23,6 +24,7 @@ DE_UniGap_Project3/
 │
 ├── images/              # Execution plan screenshots
 └── samples/             # Optional CSV outputs
+```
 
 
 ## 1. Tổng Quan
