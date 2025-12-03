@@ -83,16 +83,17 @@ Dự án sử dụng các thư viện Python sau:
 
 Cài đặt các thư viện và chạy script sinh dữ liệu:
 
+```bash
 pip install psycopg2-binary sqlalchemy faker pandas
 python src/seed_orders.py
-
+```
 Các thư viện chuẩn được Python cung cấp sẵn và không cần cài đặt thêm:
+
+```bash
 import random
 import pandas as pd
 from datetime import date, timedelta
 from sqlalchemy import create_engine
-
-```bash
 pip install psycopg2 faker pandas
 python src/seed_orders.py
 ```
