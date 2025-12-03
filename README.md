@@ -1,5 +1,30 @@
 # Dự Án DEC – Phân Tích Thương Mại Điện Tử (PostgreSQL + Python)
 
+DE_UniGap_Project3/
+│
+├── README.md
+├── README_ENG.md
+├── README_VN.md
+├── performance.md
+├── reports.md
+│
+├── docker/
+│   ├── docker-compose.yml
+│   └── .env
+│
+├── sql/
+│   └── console.sql
+│
+├── src/
+│   ├── seed.py
+│   ├── seed_orders.py
+│   ├── query_products.py
+│   └── connect_postgres.py
+│
+├── images/              # Execution plan screenshots
+└── samples/             # Optional CSV outputs
+
+
 ## 1. Tổng Quan
 
 Dự án này xây dựng một hệ thống cơ sở dữ liệu phân tích end-to-end cho mô hình thương mại điện tử, sử dụng PostgreSQL và Python.
