@@ -1,10 +1,13 @@
+```bash
 All tests were performed on already partitioned orders and order_items tables (monthly partitions by order_date).
+
 
 For the comparison, I measured each query in two scenarios:
 	•	Before Index – monthly partitions enabled, but without the index idx_order_items_product_id
 	•	After Index – same partitioning, but with the index idx_order_items_product_id
 
 This isolates the impact of the product_id index on analytical queries.
+```
 
 ## Summary of Query Performance (Before vs After Index)
 
